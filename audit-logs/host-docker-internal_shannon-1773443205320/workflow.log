@@ -1,0 +1,23 @@
+================================================================================
+Shannon Pentest - Workflow Log
+================================================================================
+Workflow ID: host-docker-internal_shannon-1773443205320
+Target URL:  http://host.docker.internal:3000
+Started:     2026-03-13T23:06:45.556Z
+================================================================================
+
+================================================================================
+Workflow FAILED
+────────────────────────────────────────
+Workflow ID: host-docker-internal_shannon-1773443205320
+Status:      failed
+Duration:    0ms
+Total Cost:  $0.0000
+Agents:      0 completed
+Error:       preflight failed
+             ConfigurationError
+             Not a git repository (no .git directory): /repos/KamriHub
+             Hint: Check your CONFIG file path and contents.
+
+Agent Breakdown:
+================================================================================

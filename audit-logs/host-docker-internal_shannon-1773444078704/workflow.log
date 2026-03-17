@@ -1,0 +1,23 @@
+================================================================================
+Shannon Pentest - Workflow Log
+================================================================================
+Workflow ID: host-docker-internal_shannon-1773444078704
+Target URL:  http://host.docker.internal:3000
+Started:     2026-03-13T23:21:52.989Z
+================================================================================
+
+================================================================================
+Workflow FAILED
+────────────────────────────────────────
+Workflow ID: host-docker-internal_shannon-1773444078704
+Status:      failed
+Duration:    0ms
+Total Cost:  $0.0000
+Agents:      0 completed
+Error:       preflight failed
+             BillingError
+             Anthropic account has a billing issue. Add credits or check your billing dashboard.
+             Hint: Check your Anthropic billing dashboard. Add credits or wait for spending cap reset.
+
+Agent Breakdown:
+================================================================================

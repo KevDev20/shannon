@@ -142,11 +142,21 @@ COPY --from=builder /app/node_modules /app/node_modules
 COPY --from=builder /app/apps/worker /app/apps/worker
 COPY --from=builder /app/apps/cli/package.json /app/apps/cli/package.json
 
+<<<<<<< HEAD
 RUN npm install -g @anthropic-ai/claude-code@2.1.84 @playwright/cli@0.1.1
 RUN mkdir -p /tmp/.claude/skills && \
     playwright-cli install --skills && \
     cp -r .claude/skills/playwright-cli /tmp/.claude/skills/ && \
     rm -rf .claude
+=======
+# Install Node.js dependencies (including devDependencies for TypeScript build)
+# Longer timeout/retries for slow or unstable networks
+RUN npm config set fetch-timeout 300000 && \
+    npm config set fetch-retries 5 && \
+    npm ci && \
+    cd mcp-server && npm ci && cd .. && \
+    npm cache clean --force
+>>>>>>> 0c72a93 (chore: update docker setup)
 
 # Symlink CLI tools onto PATH
 RUN ln -s /app/apps/worker/dist/scripts/save-deliverable.js /usr/local/bin/save-deliverable && \

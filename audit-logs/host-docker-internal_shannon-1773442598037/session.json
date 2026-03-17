@@ -1,0 +1,18 @@
+{
+  "session": {
+    "id": "host-docker-internal_shannon-1773442598037",
+    "webUrl": "http://host.docker.internal:3000",
+    "status": "failed",
+    "createdAt": "2026-03-13T22:56:38.558Z",
+    "resumeAttempts": [],
+    "originalWorkflowId": "host-docker-internal_shannon-1773442598037",
+    "repoPath": "/repos/KamriHub",
+    "completedAt": "2026-03-13T22:56:38.563Z"
+  },
+  "metrics": {
+    "total_duration_ms": 0,
+    "total_cost_usd": 0,
+    "phases": {},
+    "agents": {}
+  }
+}

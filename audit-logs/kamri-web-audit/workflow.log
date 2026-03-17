@@ -1,0 +1,23 @@
+================================================================================
+Shannon Pentest - Workflow Log
+================================================================================
+Workflow ID: kamri-web-audit
+Target URL:  http://localhost:3000
+Started:     2026-03-21T11:28:54.880Z
+================================================================================
+
+================================================================================
+Workflow FAILED
+────────────────────────────────────────
+Workflow ID: kamri-web-audit
+Status:      failed
+Duration:    0ms
+Total Cost:  $0.0000
+Agents:      0 completed
+Error:       preflight failed
+             ConfigurationError
+             Repository path does not exist: /repos/kamri-web
+             Hint: Check your CONFIG file path and contents.
+
+Agent Breakdown:
+================================================================================
